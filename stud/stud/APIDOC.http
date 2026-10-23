@@ -1,0 +1,14 @@
+###
+GET http://127.0.0.1:8000/about/
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/about/
+Content-type:application/json
+
+{
+  "name": "Anu",
+  "course": "python",
+  "age": 21,
+  "email": "anu@gmail.com"
+}
